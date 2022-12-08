@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("https://live.staticflickr.com/3010/3076677621_d5c8a765d1_b.jpg");
+    display: flex;
+    justify-content: center;
+}
+
+.glassmorphism{
+    margin-top: 100px;
+    padding: 90px;
+    background: rgba(255, 255, 255, 0.37);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+}
+.title {
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.month {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-text{
+    font-size:22px ;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.countdown{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.count-box{
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+}

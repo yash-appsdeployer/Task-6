@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("https://live.staticflickr.com/3010/3076677621_d5c8a765d1_b.jpg");
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px
+}
+
+.month {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-design {
+    padding: 20px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+}
+
+.card-design:hover{
+    border: .6px solid rgb(255, 255, 255); 
+    padding: 18px;
+}
+
+.title-card {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.card-text{
+    font-size:22px ;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px
+}
+
+.button{
+    padding:5px 30px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.button:hover{
+    background:rgba(255, 255, 255, 0.788);
+}
